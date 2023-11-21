@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import MockUser from "./mockdata/SampleUser";
-import MockRepos from "./Mockdata/MockRepos";
-import FollowersMock from "./Mockdata/FollowersMock";
+import MockRepos from "./mockdata/SampleRepos";
+import FollowersMock from "./mockdata/SampleFollowers";
 import { customFetch } from "./utils";
 import { useAuth0 } from "@auth0/auth0-react";
 const AppContext = React.createContext();
