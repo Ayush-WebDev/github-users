@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrapper {
+    @apply px-5 sm:px-10 py-10 min-h-screen;
+  }
+  .button-primary {
+    @apply text-lg rounded-md px-8 text-white uppercase py-2 font-medium bg-[#2caeba] hover:bg-[#1b6e76];
+  }
+  .heading-main {
+    @apply text-4xl text-black font-bold mb-4;
+  }
+  .container {
+    @apply max-w-[1240px] px-5 sm:px-10 py-10 mx-auto min-h-[100vh];
+  }
+  .primary-text {
+    @apply text-[#617d98];
+  }
+  .loader {
+    @apply animate-spin;
+  }
+}
