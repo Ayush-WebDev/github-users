@@ -9,8 +9,12 @@ const Signup = () => {
   return (
     <>
       <main>
-        <div className="wrapper text-center grid items-center place-items-center">
-          <img className="max-w-[700px] mb-[-40px]" src={Img} alt="" />
+        <div className="wrapper text-center flex flex-col gap-10 items-center justify-center  h-screen sm:grid  sm:items-center sm:place-items-center">
+          <img
+            className="max-w-[700px] w-full mb-5 lg:mb-[-40px]"
+            src={Img}
+            alt=""
+          />
           <div>
             <h1 className="heading-main uppercase mb-10">Github User</h1>
             <button
